@@ -1,3 +1,5 @@
-Debug/*
+Debug/
 .DS_Store
-controller/firmware/stm32/build/*
+controller/firmware/stm32/build/
+controller/bin/
+controller/firmware/build/
