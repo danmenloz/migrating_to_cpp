@@ -224,7 +224,7 @@ void Error_Handler(void);
 #define ISM43362_DRDY_EXTI1_GPIO_Port GPIOE
 
 /* USER CODE BEGIN Private defines */
-
+int main_cpp(void);
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
