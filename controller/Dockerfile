@@ -18,6 +18,9 @@ RUN apt-get update && \
 WORKDIR /home/dev
 ADD . /home/dev
 
+# Install CMake
+RUN apt install -y cmake
+
 # Install the arm toolchain and C++ support
 RUN apt-get install -y --no-install-recommends gcc-arm-none-eabi
 ENV PATH $PATH:/home/dev/gcc-arm-none/bin
